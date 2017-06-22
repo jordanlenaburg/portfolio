@@ -21,7 +21,8 @@ app.config(["$routeProvider", function ($routeProvider) {
             controller: "contactCtrl"
         })
         .when("/intro", {
-            templateUrl: "components/intro/intro.html"
+            templateUrl: "components/intro/intro.html",
+            controller: "introCtrl"
         })
         .otherwise({
             redirectTo: "/intro"
