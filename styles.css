@@ -203,7 +203,7 @@ a {
     background-color: black;
     width: 100%;
     bottom: 0px;
-    border-radius: 5px;
+    border-radius: 0px;
     height: 25px;
 }
 
@@ -213,6 +213,10 @@ a {
     animation-delay: 1s;
     animation-fill-mode: forwards;
     opacity: 0;
+}
+
+.strengths-box {
+    background-color: darkgray;
 }
 
 .fade-out {
