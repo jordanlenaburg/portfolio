@@ -6,7 +6,7 @@ app.directive("navbar", function () {
         templateUrl: "components/navbar/navbar.html",
         restrict: "E"
     }
-})
+});
 
 app.directive("footer", function () {
 
@@ -14,4 +14,4 @@ app.directive("footer", function () {
         templateUrl: "components/navbar/footer.html",
         restrict: "E"
     }
-})
+});

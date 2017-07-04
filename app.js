@@ -14,7 +14,11 @@ app.config(["$routeProvider", function ($routeProvider) {
             templateUrl: "components/about/about.html"
         })
         .when("/projects", {
-            templateUrl: "components/projects/projects.html"
+            templateUrl: "components/projects/projects.html",
+            controller: "projectCtrl"
+        })
+        .when("/skills", {
+            templateUrl: "components/skills/skills.html"
         })
         .when("/contact", {
             templateUrl: "components/contact/contact.html",
