@@ -14,8 +14,7 @@ app.config(["$routeProvider", function ($routeProvider) {
             templateUrl: "components/about/about.html"
         })
         .when("/projects", {
-            templateUrl: "components/projects/projects.html",
-            controller: "projectCtrl"
+            templateUrl: "components/projects/projects.html"
         })
         .when("/skills", {
             templateUrl: "components/skills/skills.html"
