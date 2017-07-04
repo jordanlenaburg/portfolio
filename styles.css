@@ -188,6 +188,10 @@ a {
     opacity: 0;
 }
 
+.skill {
+    width: 100%;
+}
+
 .small-text {
     font-family: jai;
     font-size: 18px;
