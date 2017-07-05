@@ -6,4 +6,4 @@ app.controller("contactCtrl", ["$scope", function ($scope) {
         emailjs.send("gmail", "contactform", contact)
         alert("Email Sent!")
     }
-}])
+}]);
